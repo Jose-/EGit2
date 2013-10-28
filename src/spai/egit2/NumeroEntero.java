@@ -19,7 +19,7 @@ public class NumeroEntero {
 		this.valor = valor;
 	}
 
-	public void incrementar() {
+	public void incrementar(int val) {
 		this.setValor(this.valor + 1);
 	}
 
@@ -27,7 +27,7 @@ public class NumeroEntero {
 		this.setValor(this.valor * 2);
 	}
 
-	public void decrementar() {
+	public void decrementar(int val) {
 		this.valor--;
 	}
 

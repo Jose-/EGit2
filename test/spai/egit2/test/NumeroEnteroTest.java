@@ -48,4 +48,13 @@ public class NumeroEnteroTest {
         assertEquals(-1, numero.getValor());
     }
 
+     @Test
+    public void testSumar() {        
+        assertEquals(13, this.numero.sumar(8,5));
+    }
+    
+    @Test
+    public void testMultiplicar() {        
+        assertEquals(15, this.numero.multiplicar(5,3));
+    }
 }

@@ -66,5 +66,10 @@ public class Fraccion {
     public double decimal() {
         return (double) numerador / denominador;
     }
+    
+    public int esPropia() {
+        
+    	return 1;
+    }
 
 }

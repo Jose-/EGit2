@@ -44,5 +44,10 @@ public class FraccionTest {
     public void testDecimal() {
         assertEquals(2.0/3.0, fraccion.decimal(), 1e-10);
     }
+    
+    @Test
+    public void esPropia() {
+        assertEquals(1, fraccion.esPropia(), 1e-10);
+    }
 
 }

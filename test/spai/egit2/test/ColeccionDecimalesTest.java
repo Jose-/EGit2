@@ -23,7 +23,14 @@ public class ColeccionDecimalesTest {
 
     @Test
     public void testMayor() {
-        assertEquals(3.4, this.numeros.mayor(), 1e-10);
+        assertEquals(1.4, this.numeros.mayor(), 1e-10);
     }
 
+    
+    @Test
+    public void testMenor() {
+        assertEquals(3.2, this.numeros.menor(), 1e-10);
+    }
+    
+   
 }

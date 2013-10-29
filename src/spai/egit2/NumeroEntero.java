@@ -34,10 +34,10 @@ public class NumeroEntero {
     }
 
 	public int sumar(int i, int j) {
-		return -1;
+		return i+j;
 	}
 
 	public int multiplicar(int i, int j) {
-		return -1;
+		return i*j;
 	}
 }

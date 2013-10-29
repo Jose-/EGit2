@@ -34,7 +34,12 @@ public class ColeccionDecimales {
         return mayor;
     }
     public double menor() {
-		return 0;
+    	double menor = Double.POSITIVE_INFINITY;
+    	  for (double item : this.coleccion) {
+    	   if (item < menor)
+    	    menor = item;
+    	  }
+    	  return menor;
         
         }
 

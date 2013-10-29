@@ -48,10 +48,10 @@ public class PersonaTest {
     }
     
     @Test
-    public void testNombresCompuestos() {
-    	this.persona.setNombre("ana");
-    	this.persona.setApellido("vega");
-    	assertEquals("Ana Vega", this.persona.nombresCompuestos());
+    public void testNombreCompuesto() {
+     this.persona.nombreCompuesto("maria baez");
+     assertEquals("Maria", this.persona.getNombre());
+     assertEquals("Baez", this.persona.getApellido());
     }
 
 }

@@ -46,5 +46,12 @@ public class PersonaTest {
     public void testNombreCompleto() {
         assertEquals("Ana Vega", this.persona.nombreCompleto());
     }
+    
+    @Test
+    public void testNombresCompuestos() {
+    	this.persona.setNombre("ana");
+    	this.persona.setApellido("vega");
+    	assertEquals("Ana Vega", this.persona.nombresCompuestos());
+    }
 
 }

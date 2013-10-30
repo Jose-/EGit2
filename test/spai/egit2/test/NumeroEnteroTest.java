@@ -30,8 +30,8 @@ public class NumeroEnteroTest {
     @Test
     public void testIncrementar() {
 
-        int x = 2;
-    	this.numero.incrementar(x);
+		int x = 2;
+		this.numero.incrementar(x);
         assertEquals(102, this.numero.getValor());
 
     }
@@ -50,7 +50,7 @@ public class NumeroEnteroTest {
         assertEquals(98, numero.getValor());
 
         this.numero.decrementar(10);
-        assertEquals(90, numero.getValor());
+        assertEquals(88, numero.getValor());
     }
 
      @Test

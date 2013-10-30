@@ -21,7 +21,7 @@ public class NumeroEntero {
 
 
     public void incrementar(int valor) {
-        this.setValor(this.valor + 1);
+        this.setValor(this.valor + valor);
     }
 
 	public void doblar() {
@@ -30,7 +30,7 @@ public class NumeroEntero {
 
 
     public void decrementar(int valor) {
-        this.valor--;
+    	this.setValor(this.valor - valor);
     }
 
 	public int sumar(int i, int j) {

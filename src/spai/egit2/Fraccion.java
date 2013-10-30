@@ -75,4 +75,9 @@ public class Fraccion {
 		}
 	}
 
+	public Object isImpropia() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

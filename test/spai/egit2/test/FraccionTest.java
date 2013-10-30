@@ -49,5 +49,12 @@ public class FraccionTest {
     public void testEsPropia() {
         assertEquals(true, fraccion.esPropia());
     }
+    
+    @Test
+    public void testIsImpropia() {
+        assertEquals(false, fraccion.isImpropia());
+        Fraccion fraccionImpropia = new Fraccion(3, 2);
+        assertEquals(true, fraccionImpropia.isImpropia());
+    }
 
 }

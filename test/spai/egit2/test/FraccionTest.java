@@ -46,8 +46,8 @@ public class FraccionTest {
     }
     
     @Test
-    public void esPropia() {
-        assertEquals(1, fraccion.esPropia(), 1e-10);
+    public void testEsPropia() {
+        assertEquals(true, fraccion.esPropia());
     }
 
 }
